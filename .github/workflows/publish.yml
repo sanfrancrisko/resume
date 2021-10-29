@@ -1,0 +1,29 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  GHP:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '17'
+          cache: 'npm'
+      - name: Install Node Packages
+        run: npm install
+      - name: Validate Resume Schema
+        run: npm run validate
+      - name: Export Resume
+        run: mkdir ./public && npm run export_html
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          external_repository: sanfrancrisko/sanfrancrisko.github.io
+          personal_token: ${{ secrets.ACTIONS_GH_PAGES }}
+          publish_dir: ./public

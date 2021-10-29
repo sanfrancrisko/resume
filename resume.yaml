@@ -1,0 +1,193 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+
+---
+basics:
+  name: "Ciaran McCrisken"
+  label: "Software Developer"
+  summary: >-
+    Experienced software engineer who prides themself on collaboration, helping others, 
+    constant self improvement, and quick learning. Took a non-traditional route into 
+    software engineering, gaining considerable knowledge in security, networking, DevOps 
+    and QA along the way.
+  profiles:
+    - network: Github
+      username: sanfrancrisko
+      url: "https://github.com/sanfrancrisko"
+    - network: LinkedIn
+      username: "ciaran-mccrisken-ba462621"
+      url: "https://linkedin.com/in/ciaran-mccrisken-ba462621"
+  location:
+    address: "Belfast, Northern Ireland"
+work:
+  - company: Puppet
+    name: Puppet
+    position: "Senior Software Engineer"
+    url: "https://www.puppet.com"
+    startDate: 2021-04
+    summary: >
+      Worked on the Developer Experience (DevX) team, helping to design and implement functionality 
+      into the next generation of the Puppet Developer Kit (PDK). Also responsible for more than 
+      a dozen open source tools covering testing, linting, templating, and other development tasks.
+      Mentor to placement student.
+    highlights:
+    - "Reduced CLI cmd exec time from > 10 secs to < 100 ms rewriting PDK from Ruby -> Go"
+    - "Pre-releases averaging once per month; fast feedback loop from interested stakeholders"
+    - "New container based architecture for Phase II"
+  - company: Puppet
+    position: "Intermediate Software Engineer"
+    startDate: 2019-10
+    endDate: 2021-03
+    summary: >
+      Worked on the Infrastructure Automation Content (IAC) Team helping to maintain, support, 
+      test & release Puppet’s supported modules. Maintained and enhanced critical tooling used 
+      internally at Puppet and externally by Open Source Community. Mentor to placement students and 
+      junior members of the team.
+    highlights:
+    - "Primary maintainer of popular & critical Apache module; designed & implemented a way to simplify the complex test requirements"
+    - "Key to testing, certifying and releasing modules for Puppet 7’s release"
+    - "Automated team's weekly statistics and reports blog"
+  - company: Rapid7
+    name: Rapid7
+    url : "https://www.rapid7.com/"
+    position: "Senior Software Engineer"
+    startDate: 2018-11
+    endDate: 2019-10
+    summary: >
+      Extending the capabilities of Rapid7’s InsightIDR SIEM platform. Performed frequent releases of 
+      on-prem and cloud native components.
+  - company: Rapid7
+    position: "Senior Security Researcher / SW Engineer (+ Team Lead)"
+    startDate: 2016-11
+    endDate: 2018-11
+    summary: >
+      Extending and maintaining the Ruby based automation infrastructure that generated vuln check definitions 
+      for InsightVM. Extending the functionality of the InsightVM product (Java, Jess).
+      Researching and authoring vuln checks for critical, newly announced CVEs, ensuring rapid turnaround of safe, 
+      accurate checks in the InsightVM product for customer detection / remediation.
+      Participating in Rapid7’s PCI annual approved vendor certification process.
+      Responsible for ensuring coherent QA strategy within the team, reviewing and improving QA processes.
+      Mentor to placement students and more junior team members.
+  - company: Rapid7
+    startDate: 2014-06
+    endDate: 2015-12
+    position: "Software Engineer in Test II"
+    summary: >
+      Development and maintenance of automation tooling, CI/CD pipelines and build scripts for Rapid7’s Nexpose/InsightVM product.
+      Development and execution of test plans for new functionality (extending automated coverage, manual / exploratory testing).
+      Primary release lead for Nexpose/InsightVM on-prem in GMT timezone.
+  - company: "Vello Systems"
+    name: "Vello Systems"
+    url: "https://web.archive.org/web/20140521102553/http://vellosystems.com/"
+    position: "QA Lead"
+    startDate: 2013-08
+    endDate: 2014-05
+    summary: >
+      Managed a team of three QA engineers, helping to build out a new Python based automation framework for Vello’s 
+      new SDN platform, in addition to maintaining and expanding on the existing test harnesses for their established 
+      optical and Ethernet network hardware. 
+  - company: Replify
+    name: Replify
+    position: "QA/Support Engineer"
+    url: "https://www.replify.com/"
+    startDate: 2010-08
+    endDate: 2013-08
+    summary: >
+      Responsible for maintaining and expanding automated test framework and infrastructure. Devising and executing test plans 
+      against Replify’s Accelerator product suite. Maintenance of IT infrastructure. Provisioning demo environments for Sales team, 
+      configuring customer deployments (on site and remote). Day-to-day maintenance of IT infrastructure (30+ Dell Poweredge servers running VMWare ESXi).
+      Primary contact for customer support queries for Replify's products. On site and remote installation and configuration of Replify's
+      Accelerator product in to critical network infrastructure.
+  - company: "Worldcast Systems Group (APT)"
+    name: "Worldcast Systems Group (APT)"
+    position: "Customer Support Engineer"
+    url: "https://www.worldcastsystems.com/"
+    startDate: 2008-06
+    endDate: 2010-08
+    summary: >
+      3rd line technical support for APT’s range of audio codecs. Remote and on-site debugging, repair, installation and configuration 
+      of equipment into zero downtime broadcast environments. Diagnosis, repair and soak testing of faulty equipment, including replacing 
+      board components. Authored quick start guides for use by customers and internal technical sales dept. 
+      Set up and tear down of demo booths at trade shows.
+education:
+  - institution: "Queen's Univerty, Belfast"
+    url: "https://www.qub.ac.uk"
+    area: "Music Technology BSc"
+    studyType: "Undergraduate"
+    startDate: 2005-09
+    endDate: 2008-06
+    score: "2:1"
+skills:
+  - name: "Coding (years exp)"
+    keywords:
+    - Ruby (7)
+    - Java (3)
+    - JESS (3)
+    - Puppet (3)
+    - Python (1)
+    - Go (1)
+  - name: "Scripting (years exp)"
+    keywords:
+    - Unix Shell (10)
+    - Perl (2)
+    - Powershell (1)
+    - Escript (1)
+  - name: "Build, CI/CD"
+    keywords:
+    - Github Actions
+    - Goreleaser
+    - Jenkins
+    - Spinnaker
+    - TeamCity
+  - name: "Cloud/Virtualisation"
+    keywords:
+    - AWS
+    - Docker
+    - Google Cloud
+    - Terraform
+    - Vagrant
+    - Virtual Box    
+    - VMWare ESX/vSphere/Fusion
+  - name: "IDEs/Editors"
+    keywords:
+    - IDEA IDEs
+    - nano
+    - Subline Text
+    - VSCode
+    - vi/vim
+  - name: "Monitoring/Observability"
+    keywords:
+    - Datadog
+    - Honeycomb
+  - name: "Security/Compliance"
+    keywords:
+    - Metasploit
+    - nmap
+    - PCI DSS compliance
+    - SIEM Logging
+  - name: "Test Frameworks"
+    keywords:
+    - Cucumber
+    - JMeter
+    - JUnit
+    - RSpec
+    - Sikuli
+  - name: "OSs"
+    keywords:
+    - Linux
+    - macOS
+    - Unix (AIX, HP-UX)
+    - Windows
+interests:
+  - name: Music
+    keywords:
+    - Piano
+    - Guitar
+    - Composition 
+    - Recording
+    - Production
+  - name: "Green Tech"
+    keywords:
+    - "Renewable Energy"
+    - "Sustainability"
+    - "Smart Electricity Usage"
+    - "EVs"
