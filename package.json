@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "resume-cli": "^3.0.5"
+  }
+}
