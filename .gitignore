@@ -1,0 +1,6 @@
+.DS_Store/
+node_modules/
+public/
+resume.json
+resume.html
+resume.pdf
