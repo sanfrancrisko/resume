@@ -27,9 +27,12 @@
   },
   "dependencies": {
     "jsonresume-theme-kendall": "^0.2.0",
-    "npm-watch": "^0.11.0",
-    "resume-cli": "^3.0.5",
+    "npm-watch": "^0.13.0",
+    "resume-cli": "^3.1.2",
     "yamljs": "0.3.0"
+  },
+  "engines": {
+    "node": ">=12 <18"
   },
   "repository": {
     "type": "git",
