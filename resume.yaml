@@ -214,17 +214,4 @@ skills:
     - macOS
     - Unix (AIX, HP-UX)
     - Windows
-interests:
-  - name: Music
-    keywords:
-    - Piano
-    - Guitar
-    - Composition 
-    - Recording
-    - Production
-  - name: "Green Tech"
-    keywords:
-    - "Renewable Energy"
-    - "Sustainability"
-    - "Smart Electricity Usage"
-    - "EVs"
+  
