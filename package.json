@@ -21,7 +21,7 @@
     "validate": "resume validate",
     "preserve": "yaml2json resume.yaml > resume.json",
     "serve": "resume serve --theme paperalt",
-    "export_html": "resume export --format html --theme jsonresume-theme-kendall ./public/index.html",
+    "export_html": "npm run update && resume export --format html --theme jsonresume-theme-kendall ./public/index.html",
     "export_pdf": "resume export --format pdf --theme jsonresume-theme-kendall",
     "watch": "npm-watch update"
   },
