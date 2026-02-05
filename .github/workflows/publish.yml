@@ -30,4 +30,5 @@ jobs:
           external_repository: sanfrancrisko/sanfrancrisko.github.io
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
-          publish_branch: main
+          publish_branch: gh-pages
+          destination_dir: resume
