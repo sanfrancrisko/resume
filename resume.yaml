@@ -19,11 +19,41 @@ basics:
   location:
     address: "Belfast, Northern Ireland"
 work:
+  - company: Slice
+    name: Slice
+    position: "Senior Software Engineer"
+    url: "https://www.slice.com"
+    startDate: 2025-01
+    summary: >
+      Technical thought leader, project coordinator and Senior IC on many major projects and initiatives, 
+      including redesinging Slice's core menu format. Authored and executed on many refactoring projects,
+      including migrating major domains between services (from Go / Rails -> Python) with seamless
+      transitioning requirements for dependent services. Mentor to numerous colleagues within my 
+      own team and wider Slice organisation - go-to consultant for many services and domains.
+    highlights:
+    - Designed and developed integration with Apple Business Connect as largely solo effort
+    - Key role as Team and Project lead in devising new V2 menu format and services; IC for major pieces of functionality.
+  - company: Slice
+    name: Slice
+    position: Software Engineer
+    url: "https://www.slice.com"
+    startDate: 2022-01
+    endDate: 2025-01
+    summary: >
+      Worked across many services from Ruby / Rails monoliths, Go and Python microservices
+      across a wide range of Slice's ecosystem. Key to developing new and maintaining existing
+      integrations with major 3rd parties (Google, Apple, Bing, etc..).  Mentor to numerous colleagues 
+      within my own team and wider Slice organisation.
+    highlights:
+    - Maintained and extended numerous integrations of Slice shops to 3rd party platforms (e.g. Google, Apple, Bing, etc...)
+    - Devised stragies for large refactoring of major services and service components whilst maintaining zero downtime
+  - company: Slice
   - company: Puppet
     name: Puppet
     position: "Senior Software Engineer"
     url: "https://www.puppet.com"
     startDate: 2021-04
+    endDate: 2021-12
     summary: >
       Worked on the Developer Experience (DevX) team, helping to design and implement functionality 
       into the next generation of the Puppet Developer Kit (PDK). Also responsible for more than 
@@ -117,20 +147,20 @@ education:
     endDate: 2008-06
     score: "2:1"
 skills:
-  - name: "Coding (years exp)"
+  - name: "Progamming Languages"
     keywords:
-    - Ruby (7)
-    - Java (3)
-    - JESS (3)
-    - Puppet (3)
-    - Python (1)
-    - Go (1)
-  - name: "Scripting (years exp)"
+    - Python
+    - Golang
+    - Ruby
+    - Java
+    - JESS
+    - Puppet
+  - name: "Scripting"
     keywords:
-    - Unix Shell (10)
-    - Perl (2)
-    - Powershell (1)
-    - Escript (1)
+    - Unix Shell
+    - Perl
+    - Powershell
+    - Escript 
   - name: "Build, CI/CD"
     keywords:
     - Github Actions
@@ -141,12 +171,17 @@ skills:
   - name: "Cloud/Virtualisation"
     keywords:
     - AWS
+    - ArgoCD
     - Docker
     - Google Cloud
+    - Kubernetes
     - Terraform
     - Vagrant
     - Virtual Box    
     - VMWare ESX/vSphere/Fusion
+  - name: "Infrastructure"
+    keywords:
+    - RabbitMQ
   - name: "IDEs/Editors"
     keywords:
     - IDEA IDEs
@@ -164,8 +199,10 @@ skills:
     - nmap
     - PCI DSS compliance
     - SIEM Logging
+    - Dependabot
   - name: "Test Frameworks"
     keywords:
+    - Pytest
     - Cucumber
     - JMeter
     - JUnit
