@@ -47,7 +47,6 @@ work:
     highlights:
     - Maintained and extended numerous integrations of Slice shops to 3rd party platforms (e.g. Google, Apple, Bing, etc...)
     - Devised stragies for large refactoring of major services and service components whilst maintaining zero downtime
-  - company: Slice
   - company: Puppet
     name: Puppet
     position: "Senior Software Engineer"
@@ -168,20 +167,18 @@ skills:
     - Jenkins
     - Spinnaker
     - TeamCity
-  - name: "Cloud/Virtualisation"
+  - name: "Cloud/Virtualisation/Infrastructure"
     keywords:
     - AWS
     - ArgoCD
     - Docker
     - Google Cloud
     - Kubernetes
+    - RabbitMQ
     - Terraform
     - Vagrant
     - Virtual Box    
     - VMWare ESX/vSphere/Fusion
-  - name: "Infrastructure"
-    keywords:
-    - RabbitMQ
   - name: "IDEs/Editors"
     keywords:
     - IDEA IDEs
