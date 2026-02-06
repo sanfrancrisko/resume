@@ -23,7 +23,25 @@ jobs:
       - name: Validate Resume Schema
         run: npm run validate
       - name: Export Resume
-        run: mkdir ./public && npm run export_html
+        run: |
+          mkdir -p ./public/resume
+          npx resume export --format html --theme jsonresume-theme-kendall ./public/resume/index.html
+      - name: Add Root Redirect
+        run: |
+          cat > ./public/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8" />
+              <meta http-equiv="refresh" content="0; url=/resume/" />
+              <title>Redirecting…</title>
+              <link rel="canonical" href="/resume/" />
+            </head>
+            <body>
+              <p>If you are not redirected, <a href="/resume/">click here</a>.</p>
+            </body>
+          </html>
+          EOF
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -31,4 +49,3 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           publish_branch: gh-pages
-          destination_dir: resume
